@@ -1,0 +1,27 @@
+@import "_startStyle";
+@import "_header";
+@import "_main";
+@import "_card";
+
+$mainColor: #000000;
+body {
+  background: $mainColor;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: $mainColor;
+}
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.blur {
+  transition: all 0.5s ease;
+  filter: blur(5px);
+}
+.lock {
+  overflow: hidden;
+}

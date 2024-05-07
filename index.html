@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Кинопоиск</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper lock">
+      <header class="header">
+        <div class="container">
+          <div class="header__container">
+            <div class="header__logo">
+              <span class="header__logo-icon">
+                <a href="#"><img src="./src/icon/logo_cinema.png" alt="LOGO" /></a>
+              </span>
+              <span class="header__logo-description">киномания</span>
+            </div>
+            <nav class="header__nav">
+              <div class="menu">
+                <input type="text" class="menu__input" placeholder="" />
+                <ul class="menu__list">
+                  <li class="menu__item" id="main"><a href="#" class="menu__link">Главная</a></li>
+                  <li class="menu__item"><a href="#" class="menu__link">Топ-250</a></li>
+                  <li class="menu__item"><a href="#" class="menu__link">Сериалы</a></li>
+                </ul>
+              </div>
+            </nav>
+            <button class="header__burger burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <main class="main">
+          <div class="container">
+            <div class="cards"></div>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+    <script src="./fetch.js"></script>
+  </body>
+</html>
